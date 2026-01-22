@@ -1,0 +1,18 @@
+.full-width-container {
+      width: 100vw;         /* Full viewport width */
+      background: linear-gradient(to right, white 0%, #0040a3 40%);/* Blue gradient background */
+      padding: 20px;        /* Optional: space inside the container */
+      box-sizing: border-box; /* Ensures padding doesn't add extra width */
+      color: white;         /* Optional: text color */
+    }
+
+.my-image {
+  /*position: relative;*/
+  margin-left: 10px; /* moves image 20px to the right */
+  height: 500px;
+  padding: 20px 60px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;        /* vertical alignment */
+  justify-content: space-between;
+}

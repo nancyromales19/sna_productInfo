@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNA IT OUTLET - CEBU BRANCH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/container.css">
 </head>
 <body>
-    
+
+    <nav class="navbar" id="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="assets/images/sna_logo.png" alt="SNA IT Outlet Logo">
+        </div>
+
+        <!-- CENTER NAV LINKS -->
+        <div class="nav-links">
+            <ul>
+                <li><a href="landing_page.html"><i class="fa-solid fa-house"></i><b>&nbsp;&nbsp;Home</b></a></li>
+                <li><a href="#"><i class="fa-solid fa-briefcase"></i><b>&nbsp;&nbsp;Services</b></a></li>
+                <li class="dropdown" ><a href="#" id="productsToggle"><i class="fa-solid fa-box"></i><b>&nbsp;&nbsp;Products&nbsp;&nbsp;</b><i class="fa-solid fa-chevron-down dropdown-icon"></i></a></li>
+                    <ul class="dropdown-menu" id="productsMenu">
+                        <li><a href="#"><i class="fa-solid fa-desktop"></i>&nbsp;&nbsp;Monitors</a></li>
+                        <li><a href="#"><i class="fa-solid fa-laptop"></i>&nbsp;&nbsp;Laptops</a></li>
+                        <li><a href="#"><i class="fa-solid fa-computer"></i>&nbsp;&nbsp;PC Sets</a></li>
+                    </ul>
+                <li><a href="#"><i class="fa-solid fa-warehouse"></i><b>&nbsp;&nbsp;Warehouse</b></a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i><b>&nbsp;&nbsp;Contacts</b></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="full-width-container">
+        <img src="assets/images/container_img.png" alt="SNAGP Logo" class="my-image">
+    </div>
+
+    <script src="assets/js/navbar.js"></script>
+
 </body>
 </html>
